@@ -36,7 +36,7 @@ int main()
 {
 	CBox box1(78.0, 24.0, 18.0); // Declare and initialize box1
 	CBox cigarBox(8.0, 5.0, 1.0); // Declare and initialize cigarBox
-	CBox box2;						// Declare and don't initialize box2
+	CBox box2;				// Declare and don't initialize box2
 	double boxVolume(0.0); // Stores the volume of a box
 	boxVolume = box1.Volume(); // Calculate volume of box1
 	cout << endl
