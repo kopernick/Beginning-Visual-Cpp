@@ -10,12 +10,14 @@ public:
 	double m_Length; // Length of a box in inches
 	double m_Width; // Width of a box in inches
 	double m_Height; // Height of a box in inches
-					 // Function to calculate the volume of a box
-	double Volume()
-	{
-		return m_Length*m_Width*m_Height;
-	}
+	double Volume(void); // Member function prototype
 };
+// Function to calculate the volume of a box
+double CBox::Volume()
+{
+	return m_Length*m_Width*m_Height;
+}
+
 int main()
 {
 	CBox box1; // Declare box1 of type CBox
