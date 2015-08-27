@@ -11,19 +11,13 @@ public:
 	double m_Width; // Width of a box in inches
 	double m_Height; // Height of a box in inches
 					 /// Constructor definition 
-CBox(double lv = 1.0, double bv = 1.0, double hv = 1.0) 
-{ 
-cout << endl << "Constructor called."; 
-m_Length = lv; // Set values of 
-m_Width = bv; // data members 
-m_Height = hv; 
-} 
-
-// Default constructor definition 
-CBox() 
-{ 
-cout << endl << "Default constructor called."; 
-}
+	CBox(double lv = 1.0, double bv = 1.0, double hv = 1.0) 
+	{ 
+		cout << endl << "Constructor called."; 
+		m_Length = lv; // Set values of 
+		m_Width = bv; // data members 
+		m_Height = hv; 
+	} 
 
 // Function to calculate the volume of a box
 	double Volume()
