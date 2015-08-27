@@ -15,7 +15,7 @@ public:
 // Function to calculate the volume of a box
 double CBox::Volume()
 {
-	return m_Length*m_Width*m_Height;
+	return m_Length * m_Width * m_Height;
 }
 
 int main()
