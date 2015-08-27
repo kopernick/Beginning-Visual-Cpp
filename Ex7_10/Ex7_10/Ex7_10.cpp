@@ -17,7 +17,7 @@ public:					 /// Constructor definition
 	}
 
 	// Function to calculate the volume of a box
-	double Volume()
+	double Volume() const
 	{
 		return m_Length* m_Width* m_Height;
 	}
