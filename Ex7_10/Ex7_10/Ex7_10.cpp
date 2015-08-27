@@ -24,7 +24,7 @@ public:					 /// Constructor definition
 	
 	//Function to campare two boxes which returs true
 	// if the first is greater than second, and false otherwise
-	bool Compare(CBox& xBox)
+	bool Compare(const CBox& xBox) const
 	{
 		return this->Volume() > xBox.Volume();
 	}
