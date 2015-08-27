@@ -34,11 +34,11 @@ private: //Private data members access avialable for methode
 	double m_Width; // Width of a box in inches
 	double m_Height; // Height of a box in inches
 };
+
 int main()
 {
-	CBox match(2.2, 1.1, .5); // Declare and initialize box1
+	CBox match(2.2, 1.1, .5); // Declare and initialize match
 	CBox cigarBox(8.0, 5.0, 1.0); // Declare and initialize cigarBox
-	
 	
 	if (cigarBox.Compare(match))
 	{
