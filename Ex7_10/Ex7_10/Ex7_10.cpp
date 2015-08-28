@@ -38,7 +38,7 @@ private: //Private data members access avialable for methode
 int main()
 {
 	CBox match(2.2, 1.1, .5); // Declare and initialize match
-	CBox cigarBox(8.0, 5.0, 1.0); // Declare and initialize cigarBox
+	const CBox cigarBox(8.0, 5.0, 1.0); // Declare and initialize cigarBox
 	
 	if (cigarBox.Compare(match))
 	{
